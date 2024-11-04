@@ -5,49 +5,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        div{
+        <style>
+        #name{
             width: 150px;
             height: 60px;
             border: 1px solid #715;
             background-color: beige;
-            /* display: inline-block; */
-            
-        }
-        #n3:hover{opacity: 0.9;
-        }
-        .sub{
-            background-color: aqua;
-            position: relative;
-            top: 10px;
-            left: 30px;
-        }
-        #fix{
+            display: inline-block;
             position: fixed;
-            /* position: absolute; */
-            bottom: 50px;
-            right: 100px;
+            position: absolute;;
+            top:0%;
+            right: 0%;
         }
-        #float{
-            position: fixed;
-            left:300px;
-            width: 400px;
+        nav{
+            width:200px;
             height:300px;
-        }
+            border-style:solid;
+            border-width: 3px;
+            background-color: rgb(31, 164, 204);
+            display:inline-block;        
+        }       
     </style>
 </head>
 <body>
-    <div>DIV1</div>
-    <div class="sub">DIV2</div>
-    <div id="n3">DIV3</div>
-    <div class="sub">DIV4</div>
-    <div>DIV5</div>
-    <div id="fix">DIV6</div>
-    <div id="float">
-    <img src="독일국기.png" width="100px" style="float:left">독일은 1945년 패전이후 공산주의인 소련과 민주진영인 연합군의 군이 각각 동서에서 들어오며 동독과 서독으로 분단되었는데
-     우리나라와 비슷하게 장벽이 생기면서 서로 왔다갔다 할수 없는 분단국가 되었었다 
-     그러나 후에 1993년 소련이 붕괴하면서 동독과 서독 사이에 베를린 장벽이 붕과되었고 현재의 통일 독일이 되었다 
-    </div>
-    
+    <div id="name">202400518 구준서</div>
+    <header><h1>주제:제2차 세계대전의 원인과 결과</h1></header>
+    <nav>
+        <h3>목차</h3>
+        <li>주제소개</li> <br>
+        <li>전쟁의 원인</li><br>
+        <li>주요 전투 및 사건</li><br>
+        <li>전쟁의 결과</li><br>
+        <li>결론</li>
+    </nav> 
+    <section>
+        <div id="A">
+            <h3>주제소개</h3>
+        </div>
+
+        <div id="B">
+            <h3>전쟁의 원인</h3>
+        </div>
+
+        <div id="C">
+            <h3>주요 전투 및 사건</h3>
+        </div>
+
+        <div id="D">
+            <h3>전쟁의 결과</h3>
+        </div>
+
+        <div id="E">
+            <h3>결론</h3>
+        </div>
+    </section>
+</body>
+</html>
 </body>
 </html>
