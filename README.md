@@ -97,7 +97,7 @@
          제2차 세계 대전은 단순한 군사적 충돌이 아니라 인류의 역사와 사회, 문화에 지대한 영향을 미쳤습니다. <br>
          따라서 이 전쟁을 이해하는 것은 오늘날의 국제 정치와 사회적 이슈를 분석하는 데 매우 중요합니다.
         </div>
-        <div id="b"><img src="ww2map.jpg", width="350px" height="200px" style="float:right"> 
+        <div id="b"><img src="ww2map.jpg", width="250px" height="200px" style="float:right"> 
         <h1>전쟁의 원인</h1>
         
             <h4><li>베르사유 조약</li></h4>
