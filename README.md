@@ -83,7 +83,7 @@
     </nav>
 
     <section>
-        <div id="a"><img src="ww2.jpg" width="350px" height="300px" style="float:right">
+        <div id="a"><img src="ww2(2).jpg" width="350px" height="300px" style="float:right">
         <h1>주제소개</h1>
          "제2차 세계 대전(1939-1945)은 20세기 역사에서 가장 치열하고 영향력 있는 전쟁 중 하나로, 전 세계에 걸쳐 막대한 인명 피해와 정치적 변화를 초래했습니다."<br>
         <h4><li>전쟁의 배경</li></h4>
@@ -151,8 +151,18 @@
 
     <aside id="f">
        <h1>느낀점</h1>
-       이번 웹프로그래밍 활동을 통해서 평소에 보던 웹페이지들이 많은 노력과 전문성을 통해 만들어진다는 것을 크게 느꼈고<br>
-       미래 사회에 웹프로그래밍 같은 부분들이 우리 생활에 많은 부분에 크게 작용하며 연결점이 될거같다.
+        <input id="input" placeholder="느낀 점을 입력하세요">
+        <button onclick="addFeedback()">추가</button>
+        <ul id="list"></ul>
+    
+        <script>
+            function addFeedback() {
+                const input = document.getElementById('input');
+                if (!input.value.trim()) return alert('느낀 점을 입력하세요!');
+                list.innerHTML += `<li>${input.value}</li>`;
+                input.value = '';
+            }
+        </script>
     </aside>
     
     <footer id="g">
